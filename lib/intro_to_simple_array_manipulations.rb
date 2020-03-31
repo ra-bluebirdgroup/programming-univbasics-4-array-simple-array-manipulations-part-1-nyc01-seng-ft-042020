@@ -15,11 +15,11 @@ array.pop(2)
 end
 
 def using_shift(array)
-  array.shift
-  array
+    value = array.shift
+    value
 end
 
 def shift_with_args(array)
     values = array.shift(2)
-    values    
+    values
 end
